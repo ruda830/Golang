@@ -1,19 +1,18 @@
-/*ãƒ¡ã‚¤ãƒ³ãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã‚’å®£è¨€ã—ã¾ã™ï¼ˆãƒ‘ãƒƒã‚±ãƒ¼ã‚¸ã¨ã¯ã€é–¢æ•°ã‚’ã‚°ãƒ«ãƒ¼ãƒ—åŒ–ã™ã‚‹æ–¹æ³•ã§ã™ï¼‰*/
-/*ãƒ¡ã‚¤ãƒ³é–¢æ•°ã¯ã€ãƒ•ã‚¡ã‚¤ãƒ«å†…ã®ã‚³ãƒ¼ãƒ‰ã‚’å®Ÿè¡Œã—ãŸã¨ãã«ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã§å®Ÿè¡Œã•ã‚Œã¾ã™ã€‚*/
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-/*pkg.go.dev siteã«è¡Œã£ã¦ãƒ‘ãƒ–ãƒªãƒƒã‚·ãƒ¥æ¸ˆã¿ã®ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«(ä»Šå›ã¯rsc.io/quote)ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã™ã€‚*/
-import "rsc.io/quote"
-
-/*rsc.io/quoteå…¥ã‚Œã‚‹å‰ã¯ã“ã‚Œ
-func main() {
-    fmt.Println("Hello, World!")
-}
+	"example.com/greetings"
+)
+/* 2‚Â‚ÌƒpƒbƒP[ƒW‚ğƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄŠÖ”‚ğŒÄ‚Ño‚¹‚é‚æ‚¤‚É‚µ‚Ü‚·B
+fmt‚Æ
+example.com/greetings modA‚Â‚Ü‚èexample.com/greetingsƒ‚ƒWƒ…[ƒ‹‚ÉŠÜ‚Ü‚ê‚Ä‚¢‚éƒpƒbƒP[ƒWi¡‰ñ‚Ígreetings packagej
 */
 
-/*rsc.io/quoteå…¥ã‚Œã¦å‘¼ã³å‡ºã—*/
 func main() {
-    fmt.Println(quote.Go())
+	// Get a greeting message and print it.
+	//greetingsƒpƒbƒP[ƒW‚ÌHelloŠÖ”‚ÉƒAƒNƒZƒX
+	message := greetings.Hello("Gladys")
+	fmt.Println(message)
 }
