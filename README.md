@@ -1,8 +1,24 @@
 # GO tutorial
 
-Golang ã®å…¬å¼ã‚µã‚¤ãƒˆã‹ã‚‰ãƒãƒ¥ãƒ¼ãƒˆãƒªã‚¢ãƒ«ã‚’è¡Œã„ã¾ã™ã€‚  
+Golang ‚ÌŒöŽ®ƒTƒCƒg‚©‚çƒ`ƒ…[ƒgƒŠƒAƒ‹‚ðs‚¢‚Ü‚·B
 
 https://golang.org/doc/tutorial/getting-started
 
-(2020/12/24)Call your code from another module
-ã¾ã§ã‚„ã£ãŸã€‚
+(2020/12/24)Call your code from another module ‚Ü‚Å‚â‚Á‚½Bƒrƒ‹ƒh‚Ü‚ÅI—¹B  
+
+Œ©‚Ä‚éŽQlƒTƒCƒg«  
+
+Go‚Å‚ÌŠJ”­—á  
+https://medium.com/@terfno/8-12-8-30-voyage-group%E3%81%AEtreasure%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%9F-376263eb19b9
+
+Go‚ÌŠÂ‹«\’z‚©‚çƒNƒ‰ƒEƒhDBÚ‘±A‘€ìARESTful API‚Ü‚Å(MySQL‘æ12‰ñ)
+https://rightcode.co.jp/blog/information-technology/golang-introduction-environment-1
+
+CircleCI‚ÌŠJ”­ƒtƒ[  
+https://codezine.jp/article/detail/11208
+
+‚¿‚å‚Á‚Æê–å“I‚ÈRESTful API ƒT[ƒo‚Ì\’zi—]—Í‚ª‚ ‚ê‚Î—pj
+https://www.seplus.jp/dokushuzemi/blog/2018/12/entry_golang.html#Hello_World
+
+WebAPI‚É‚Â‚¢‚Ä‚Ìà–¾AŒê‹å‚Ìà–¾‚ªŽåBŒ‹\‚¨Š©‚ß‚Å‚µ‚½B
+https://qiita.com/busyoumono99/items/9b5ffd35dd521bafce47
