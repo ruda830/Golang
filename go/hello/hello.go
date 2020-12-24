@@ -5,14 +5,14 @@ import (
 
 	"example.com/greetings"
 )
-/* 2つのパッケージをインストールして関数を呼び出せるようにします。
-fmtと
-example.com/greetings mod、つまりexample.com/greetingsモジュールに含まれているパッケージ（今回はgreetings package）
+/*Install two package to call the functions.
+fmt and
+example.com/greetings mod,That is, the package included in the example.com/greetings module (in this case, the greetings package)
 */
 
 func main() {
 	// Get a greeting message and print it.
-	//greetingsパッケージのHello関数にアクセス
+	//Access the Hello function in the greetings package
 	message := greetings.Hello("Gladys")
 	fmt.Println(message)
 }
