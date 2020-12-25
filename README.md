@@ -7,6 +7,8 @@ https://golang.org/doc/tutorial/getting-started
 (2020/12/24)Call your code from another module までやった。ビルドまで終了。  
 (2020/12/25)echoがインポートできない。→色々調べる。bin,src,pkg等のファイルの置き場を整理。ＰＡＴＨの勉強する。GOPATHの設定,PATHに＄GOPATH\binを追加した。  
 →とりあえず、echo以外ではない別のpkg importに成功。~/go/src/github.comになんか既にecho入っていたので、削除して再度正式に入れる、成功した。
+・ローカルサーバー構築
+・GETまでやった。
 
 ----------------------------------------------------------------------------------------------------  
 
